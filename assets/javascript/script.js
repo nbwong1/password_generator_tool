@@ -12,6 +12,10 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword) {
-  let writePassword = prompt('How long should the password be?');
 }
 //Generate Button Prompts//
+//how long can the password be 8<x<128 characters//
+let writePassword = prompt('How long should the password be?');
+
+let writePassword = prompt('What kinds of character types to include?')
+
